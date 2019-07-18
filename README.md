@@ -1,0 +1,2 @@
+# springcloud-gray-example
+Zuul网关上基于Ribbon和Eureka元数据的灰度路由实现（需使用Apollo达到配置灰度元数据）
