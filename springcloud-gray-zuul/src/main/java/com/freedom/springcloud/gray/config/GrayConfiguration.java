@@ -18,7 +18,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Controller;
 
 @Configuration
-@RibbonClients( defaultConfiguration = { DefaultRibbonClientsConfiguration.class } )
+@RibbonClients( defaultConfiguration = { DefaultRibbonClientsConfiguration.class } )  // 指定RibbonClients默认配置
 public class GrayConfiguration {
 
     /**
