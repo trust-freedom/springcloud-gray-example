@@ -36,11 +36,11 @@ Zuul网关上基于Ribbon和Eureka元数据的灰度路由实现（需使用Apol
 
 ### 2、普通测试
 
-使用Postman通过zuul网关调用后端的provider 和 provider-gray
+使用Postman通过zuul网关调用后端的 provider 和 provider-gray
 
 端点：GET  http://xxx.xxx.xxx.xxx:9041/provider1/hello
 
-![1566889601799](images/1566889601799.png)
+![](images/1566889601799.png)
 
 ### 3、发布灰度配置
 
@@ -52,7 +52,7 @@ Zuul网关上基于Ribbon和Eureka元数据的灰度路由实现（需使用Apol
 
 新增灰度配置
 
-![1566891690955](images\1566891690955.png)
+![](images/1566891690955.png)
 
 ![](images/Snipaste_2019-08-27_15-42-23.png)
 
