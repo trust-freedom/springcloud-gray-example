@@ -20,13 +20,13 @@ Zuul网关上基于Ribbon和Eureka元数据的灰度路由实现（需使用Apol
 
 > 服务器1IP       eureka1
 
-在**服务器1**启动
+在 **服务器1** 启动
 
 - springcloud-gray-eureka
 - springcloud-gray-provider1
 - springcloud-gray-zuul
 
-在**服务器2**启动
+在 **服务器2** 启动
 
 - springcloud-gray-provider1-gray
 
@@ -40,13 +40,13 @@ Zuul网关上基于Ribbon和Eureka元数据的灰度路由实现（需使用Apol
 
 端点：GET  http://xxx.xxx.xxx.xxx:9041/provider1/hello
 
-![1566889601799](images\1566889601799.png)
+![1566889601799](images/1566889601799.png)
 
 ### 3、发布灰度配置
 
 进入Apollo项目，点击“灰度”
 
-![](images\Snipaste_2019-08-27_15-34-52.png)
+![](images/Snipaste_2019-08-27_15-34-52.png)
 
 <br>
 
@@ -89,6 +89,8 @@ Zuul网关上基于Ribbon和Eureka元数据的灰度路由实现（需使用Apol
 此时只能返回  {"msg": "This is provider1 gray"}
 
 说明请求头带灰度标签的请求被路由到了灰度节点
+
+<br>
 
 ### 5、撤销灰度
 
